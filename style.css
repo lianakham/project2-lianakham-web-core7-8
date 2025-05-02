@@ -1,0 +1,141 @@
+@font-face {
+    font-family: "ttlakes";
+    src: url("/font/TTLakes-Regular.woff");
+ }   
+ @font-face {
+    font-family: "bold";
+    src: url("/font/TTLakes-Bold.woff");
+ }
+ @font-face {
+    font-family: "demi-bold";
+    src: url("/font/TTLakes-DemiBold.woff");
+ }
+body {
+    width: 320px;
+    height: 750px;
+    position: fixed;
+    margin: 0;
+    left: 0;
+    top: 0;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 35px grey;
+}
+.header__menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    align-items: center;
+    height: 88px;
+}
+.header__open-menu,
+.header__search {
+    background: transparent;
+    border: none;
+}
+.header__open-menu {
+    margin-left: 5px;
+    
+}
+.header__logo {
+    margin-left: 5px;
+    margin-right: auto;
+
+}
+.header__search {
+    margin-right: 10px;
+   margin-left: auto;
+}
+.menu { 
+    margin: 0;
+}
+
+.menu__item {
+   padding: 0;
+   margin: 0;
+}
+
+
+.menu__item li {
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    
+}
+.highlight {
+    display: flex;   
+}
+
+.menu__item a {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    height: 30px;
+    color: #1B1C21;
+    padding-left: 10px;
+}
+a:hover {
+    color: #7E7E82;
+    font-size: 18px;
+}
+footer {
+    margin-top: 100px;
+    padding-left: 10px;
+    
+}
+.button-icon {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+}
+.button-icon button { 
+    background: transparent;
+    border: none;
+}
+.email {
+    font-size: 16px;
+    letter-spacing: -0.2px;
+    text-decoration: none;
+    color: #1B1C21;
+    padding: 5px;
+    width: 106px;
+}
+.number {
+    width: 196px;
+    height: 32px;
+    text-decoration: none;
+    font-size: 24px;
+    color: #1B1C21;
+    letter-spacing: -0.6px;
+    padding: 5px;
+    font-family: "demi-bold";
+}
+.contact-us__details {
+    display: flex;
+    flex-direction: column;
+}
+.language {
+    display: flex;
+    margin: 5px;
+    width: 87px;
+    height: 24px;
+}
+.language a {
+    text-decoration: none;
+    color: #1B1C21;
+    font-size: 16px;
+    letter-spacing: -0.2px;
+    width: 24px;
+    height: 24px;
+    margin: 5px;
+}
+.language a:hover {
+    color: #7E7E82;
+    font-size: 14px;
+}
+img:hover {
+    filter: opacity(0.3);
+}
+.logo img {
+    filter: none;
+}
